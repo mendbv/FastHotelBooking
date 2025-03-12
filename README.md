@@ -30,7 +30,7 @@ git clone https://github.com/your-repo/hotel-booking-api.git
 cd hotel-booking-api
 ```
 
-### Установка зависимостей
+### 2️⃣Установка зависимостей
 ```
 python -m venv venv
 source venv/bin/activate  # для Linux/Mac
@@ -38,7 +38,7 @@ venv\Scripts\activate  # для Windows
 pip install -r requirements.txt
 ```
 
-### Настройка переменных окружения
+### 3️⃣Настройка переменных окружения
 ```
 DATABASE_URL=postgresql://user:password@localhost/db_name
 SECRET_KEY=your_secret_key
@@ -46,12 +46,12 @@ ACCESS_TOKEN_EXPIRE_MINUTES=30
 
 ```
 
-### Запуск базы данных (если используется Docker)
+### 4️⃣Запуск базы данных (если используется Docker)
 ```
 docker-compose up -d
 ```
 
-### Запуск сервера FastAPI
+### 5️⃣Запуск сервера FastAPI
 ```cmd
 fastapi dev main.py
 ```
